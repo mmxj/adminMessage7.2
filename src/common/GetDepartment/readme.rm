@@ -1,0 +1,33 @@
+2018.3.8
+author:webmxj;
+email：webmxj@163.com
+qq：642525655;
+wx:xuejianft;
+查询公司组件input输入框组件
+使用方法
+-------------
+父组件
+<template>
+  <GetCompany :data="company" :type="公司的类型" :holder="要输入的提示"></GetCompany>
+</template>
+<script>
+ import GetCompany from '@/common/GetCompany'
+ export defalut{
+  data(){
+    return {
+      company:{}
+    }
+  }
+ }
+</script>
+____________
+
+子组件
+export default {
+  props:['data','type']
+}
+
+~~~~~~~~~~~~~~~~~~
+
+返回值 name和id
+版本：1.0.0

@@ -1,0 +1,182 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+input,textarea{
+    outline:none;
+}
+
+:focus {
+	outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+ul li{
+    list-style:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+.clearfix:after{
+    content:"";
+    display:block;
+    clear:both;
+    visibility: hidden;
+    height:0;
+    font-size:0;
+}
+.clearfix{
+    *zoom:1;
+}
+/*.el-input__icon{*/
+  /*left:0;*/
+  /*top:0;*/
+/*}*/
+/*.el-select .el-input .el-select__caret{*/
+  /*top:0;*/
+  /*left:-20px;*/
+/*}*/
+/*.el-table th{*/
+  /*padding:0;*/
+  /*box-sizing: border-box;*/
+  /*background-color:rgb(238, 241, 246);*/
+/*}*/
+/*.el-pagination__editor{*/
+  /*border:0;*/
+/*}*/
+/*.el-pager li.active{*/
+  /*color: #fff;*/
+/*}*/
+/*.el-menu-item, .el-submenu__title{*/
+  /*height:40px;*/
+  /*line-height:40px;*/
+/*}*/
+/*.el-submenu .el-menu-item{*/
+  /*height:40px;*/
+  /*line-height:40px;*/
+/*}*/
+/*.el-menu-item.is-active{*/
+  /*color:#333;*/
+/*}*/
+/*.el-submenu [class^=el-icon-]{*/
+  /*color:#333;*/
+/*}*/
+/*.el-menu-item [class^=el-icon-]{*/
+  /*color: #333;*/
+/*}*/
+/*.el-table--enable-row-hover .el-table__body tr:hover>td{*/
+  /*background: #fafafa;*/
+/*}*/
+/*.el-menu{*/
+  /*border-right:0;*/
+/*}*/
+/*.el-table__expanded-cell{*/
+  /*background:#eef0f3*/
+/*}*/
+/*.el-table__expanded-cell:hover{*/
+  /*background:#eef0f3 !important;*/
+/*}*/
+
+/*.el-table__header{*/
+  /*background: rgb(238, 241, 246);*/
+/*}*/
+/*.el-select .el-input .el-select__caret.is-show-close{*/
+  /*top:10px;*/
+/*}*/
+/*.el-table--mini td, .el-table--mini th{*/
+  /*padding:0 !important;*/
+/*}*/
+/*.el-table--mini th{*/
+  /*background: #eee !important;*/
+/*}*/
+/*.el-table td, .el-table th{*/
+  /*padding:0 !important;*/
+/*}*/
+/*.el-table th{*/
+  /*background: #eee !important;*/
+/*}*/
+/*#app .el-select .el-input .el-input__icon{*/
+  /*top:0*/
+/*}*/
